@@ -14,5 +14,18 @@ void main(){
   // Types like int? and String? can be null. Their default value is null if no value is assigned.
   int? lineCount;
   print(lineCount); // null
+
+  // You must assign an initial value to non-nullable variables!
+  String name = "ahmet";    // ✅ Value assigned
+  print(name);              // ✅ Works
+  
+  String? surname;          // ✅ Automatically null
+  print(surname);           // ✅ Prints null
+  
+  if (surname == null) {    // ✅ Null check
+    print("No surname");
+  }
+
+
   
 }
