@@ -24,8 +24,5 @@ void main(){
   
   if (surname == null) {    // ✅ Null check
     print("No surname");
-  }
-
-
-  
+  }  
 }
