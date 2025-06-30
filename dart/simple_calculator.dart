@@ -69,7 +69,7 @@ void main(List<String> args) {
 
         case '/':
           if (number2 == 0) {
-            throw Exception('$number1 cannot be divided by 0. Try again.');
+            throw Exception('$number2 cannot be divided by 0. Try again.');
           }
           result = number1 / number2;
           break;
